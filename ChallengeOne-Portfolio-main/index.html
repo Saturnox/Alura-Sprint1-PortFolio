@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - DiegoQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>  
+    
+    
+	<div id="particles-js">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mi</a></li>               
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+             </ul>
+        </nav>
+
+        <section class="banner">
+            <h3>soy</h3>
+            <h1>Diego Q </h1>
+            <p>Tecnico Quimico y Profesor Matematicas  que decidió comenzar a estudiar programación Web.</p>
+            <div id="yo-dibujado">
+                <img  src="./img/tano2.png" alt="Caricatura Tano.png">
+            </div>
+            <h2 id="sobre-mi">Bienvenidos a mi portfolio.</h2>
+            <p>rompo las pelotas desde 1987, pero por problemas de la vida,<br/>
+                 nunca pude trabajar en el sector.
+                <br/>Desde el año 2021 me propuse actualizarme en las nuevas tecnologías de desarrollo.
+              
+            </p>
+            
+        <a href="./img/quattropani.pdf" class="btn-flotante">Mi Curriculum CV </a>
+        
+	      
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div id="skills-wrapper">
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                </div>
+                <div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <div id="hobbies-wrapper">
+                <div>
+                    <img src="./img/musica.jpg" />
+                </div>
+                <div>
+                    <img src="./img/videogames.jpg" />
+                </div>
+                <div>
+                    <img src="./img/caminar.jpg" />
+                </div>
+            </div>
+        </section>
+
+        <section class="formacion" id="formacion">
+            <h2>Formación</h2>
+            <div id="formacion-wrapper">
+                <div>
+                    <img src="./img/images isp san pablo.png" />
+                    <p>Bachiller Tecnico Quikmico</p>
+                </div>
+                <div>
+                    <img src="./img/descarga.png" />
+                    <p>Ing Quimica</p>
+                </div>
+                <div>
+                    <img src="./img/images ies.png" />
+                    <p>Profesorado Matematicas</p>
+                </div>
+                <div>
+                    <img src="./img/alura.png" />
+                    <p>Oracle ONE Next Education</p>
+                </div>
+				<div>
+                    <img src="./img/descarga egg.png" />
+                    <p>Full Stack Web </p>
+                </div>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h2>Proyectos</h2>
+            <div class="container">
+            
+                <div class="card">
+                    <a href="https://github.com/Saturnox/Alura-Challenge/tree/main/Encrypt" target="_blank"><img src="./img/encriptador.jpg"></a>
+                    <div class="card__head">ENCRIPTADOR</div>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/Saturnox/Alura-dos-Ahorcado/tree/main/Alura_Challenge-Ahorcado-main" target="_blank"><img src="./img/ahorcado.jpg"></a>
+                    <div class="card__head">AHORCADO</div>
+                </div>
+               
+            </div>
+
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>            
+            <div>
+                <img src="./img/pngwing.com.png" alt="Contactame">
+            </div>
+            <form  id="contacto">
+                    
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+    
+                <label for="email">Email</label>
+                <input type="email" id="email">
+    
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto">
+    
+                <label for="mensaje">Mensaje</label>
+                <textarea name="textarea" rows="10" col="50" id="mensaje"></textarea>
+    
+                <input type="submit" value="Enviar" id="button-enviar">    
+            </form>       
+        </section>
+
+
+        <footer>
+            <h6>Craneado por DiegoQ</h6>
+            <div>
+                <div class="img-git">
+                    <a href="https://github.com/saturnox" target="_blank"><img src="./img/github logo.png" alt="logo-git"></a>               
+                </div>
+                <div class="img-link">
+                    <a href="https://www.linkedin.com/in/diego-q-831a84168/" target="_blank"><img src="./img/linkedin logo.png" alt="logo-lin"></a>               
+                </div>
+            </div>
+            
+            
+        </footer>
+    </div>
+    
+        
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./js/main.js"></script>  
+
+    <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+        });
+    </script>
+</body>
+</html>
